@@ -1,111 +1,37 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/*Sections*/
+@import url(./head.css);
+@import url(./date.css);
+@import url(./timer.css);
+@import url(./invitation.css);
+@import url(./location.css);
+
 body {
-    padding: 20px;
     font-family: "Cormorant Infant", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
 }
 
-span {
-    font-weight: 700;
-}
+/*Header*/
 
-.header {
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    width: 500px;
-    height: 700px;
-    background-image: url(./resources/wedding__tree.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50%;
-}
+/*Date*/
 
-.head__text {
-    position: absolute;
-    bottom: -5px;
-    margin: 0 auto;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.head__title {
-    font-size: 60px;
-}
-
-.head__description {
-    width: 400px;
-    font-size: 24px;
-}
-
-.head__date {
-    font-size: 30px;
-    line-height: 40px;
-}
-
-
-/*Main*/
 .main {
     margin: 0 auto;
     width: 500px;
 }
 
-.countdown__title {
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 30px;
-}
+/*Timer*/
 
-.countdown__timer {
-    margin: 0 auto;
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-}
+/*Invitation*/
 
-.timer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
+/*Location*/
 
-.timer__number {
-    font-size: 30px;
-}
-
-.timer__text {
-    font-size: 20px;
-}
-
-.location {
-    margin-top: 30px;
-}
-
-.location__title {
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 30px;
-}
-
-.location__text {
-    font-size: 22px;
-}
-
-/*Map*/
-.restaurant__map {
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 80vw;
-}
-
-iframe {
-    width: 80vw;
-    height: 50vh;
+@media (max-width: 539px) {
+    .main {
+        width: 100%;
+    }
 }
