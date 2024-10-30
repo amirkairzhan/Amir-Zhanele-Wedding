@@ -1,0 +1,29 @@
+.location {
+    margin-top: 30px;
+}
+
+.location__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.location__text {
+    font-size: 22px;
+}
+
+span {
+    font-weight: 700;
+}
+
+/*Map*/
+.restaurant__map {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80vw;
+}
+
+iframe {
+    width: 80vw;
+    height: 50vh;
+}

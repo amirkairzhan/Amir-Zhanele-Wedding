@@ -1,0 +1,59 @@
+/*Date*/
+.date__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.date__week,
+.date__time {
+    width: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.date__date {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.date__month,
+.date__year {
+    font-size: 20px;
+}
+
+.date__day {
+    font-size: 50px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+
+@media (max-width: 539px) {
+    .date__wrapper {
+        gap: 3px;
+    }
+
+    .date__week,
+    .date__time {
+        width: 100px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .date__date {
+        gap: 0;
+    }
+    
+    .date__month,
+    .date__year {
+        font-size: 16px;
+    }
+    
+    .date__day {
+        font-size: 50px;
+    }
+}
