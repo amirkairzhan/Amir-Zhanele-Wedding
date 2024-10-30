@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="head__text">
+        <h1 class="head__title">Амир & Жанеле</h1>
+        <p class="head__description">
+          Мы приглашаем Вас разделить с нами наш самый незабываемый день в жизни
+        </p>
+        <p class="head__date">22 февраля 2025 <br> 16:00</p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="countdown">
+        <h2 class="countdown__title">До мероприятия осталось:</h2>
+        <div class="countdown__timer">
+          <div class="timer">
+            <h2 id="week" class="timer__number">00</h2>
+            <p class="timer__text">недель</p>
+          </div>
+          <div class="timer">
+            <h2 id="day" class="timer__number">00</h2>
+            <p class="timer__text">дней</p>
+          </div>
+          <div class="timer">
+            <h2 id="hour" class="timer__number">00</h2>
+            <p class="timer__text">часов</p>
+          </div>
+          <div class="timer">
+            <h2 id="min" class="timer__number">00</h2>
+            <p class="timer__text">минут</p>
+          </div>
+          <div class="timer">
+            <h2 id="sec" class="timer__number">00</h2>
+            <p class="timer__text">секунд</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="location">
+        <h2 class="location__title">Место проведения:</h2>
+        <p class="location__text">Ресторанный комплекс <span>Khan Saray</span></p>
+        <p class="location__text">Адрес: г.Кокшетау, Микрорайон Коктем, 1/1.</p>
+      </div>
+    </main>
+
+    <div class="restaurant__map">
+      <iframe
+        id="map_698322598"
+        frameborder="0"
+        width="100%"
+        height="600px"
+        sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
+      ></iframe>
+    </div>
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+  </body>
+</html>
