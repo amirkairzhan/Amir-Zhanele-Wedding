@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <audio src='./resources/Lana Del Rey - Young and Beautiful (minus 11).mp3' autoplay='autoplay' loop='loop'></audio>
-
     <header class="header">
       <div class="head__text">
         <h1 class="head__title">Амир & Жанеле</h1>
@@ -67,15 +65,19 @@
       </div>
     </main>
 
-    <div class="restaurant__map">
-      <iframe
-        id="map_698322598"
-        frameborder="0"
-        width="100%"
-        height="600px"
-        sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
-      ></iframe>
-    </div>
+    <footer>   
+      <div class="restaurant__map">
+        <iframe
+          id="map_698322598"
+          frameborder="0"
+          width="100%"
+          height="600px"
+          sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
+        ></iframe>
+      </div>
+
+      <embed src="./resources/Lana Del Rey - Young and Beautiful (minus 11).mp3" autostart="true" hidden="false" loop="false" width="150" height="65" align="bottom"></embed>
+    </footer>
 
     <script src="index.js"></script>
     <script type="text/javascript" src="map.js"></script>
