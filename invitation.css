@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     width: 500px;
-    height: 500px;
+    height: 600px;
 }
 
 .invitation__content {
@@ -33,13 +33,14 @@
         background-position: 50%;
     }
     
-    .invitation__title {
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-    
     .invitation__text {
-        font-size: 18px;
-        width: 60%;
+        width: 65%;
+    }
+}
+
+
+@media (max-width: 405px) {   
+    .invitation__text {
+        width: 70%;
     }
 }
