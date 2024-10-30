@@ -33,27 +33,14 @@
 
 
 @media (max-width: 539px) {
-    .date__wrapper {
-        gap: 3px;
+    .date__date {
+        gap: 2px;
     }
+}
 
+@media (max-width: 399px) {
     .date__week,
     .date__time {
-        width: 100px;
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .date__date {
-        gap: 0;
-    }
-    
-    .date__month,
-    .date__year {
-        font-size: 16px;
-    }
-    
-    .date__day {
-        font-size: 50px;
+        width: 120px;
     }
 }
